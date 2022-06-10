@@ -20,9 +20,6 @@ For eack block the player manage to remove he gets 5 points and for the first bl
 
 The game have a WINNER screen, a LOSER screen and a PAUSE screen.
 
-### Implemented Design Patterns
-- 
-
 ## Getting Started
 
 ### Dependencies
@@ -34,6 +31,10 @@ Open the repo in your java idea, I recommend on IntelliJ.
 The project contains build.xml which build the project with ant, so you need to install ant and in the idea to run the ant script.
 
 Afterwards, you can simply run.
+
+### Play Specific Levels
+
+In the build.xml you can change the line `<arg line="${args}"/>` and put instead of args the level numbers you want to play.
 
 ## ScreenShots
 
